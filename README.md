@@ -22,8 +22,7 @@ It provides the following basic structure:
 
 ```javascript
 class CustomControl {
-    constructor(options = {}) {
-        this.options = options;
+    constructor() {
     }
 
     onAdd(map) {
